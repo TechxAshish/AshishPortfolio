@@ -11,6 +11,8 @@ color:white;
 height:100vh;
 }
 
+
+
 /* Navbar */
 nav{
 display:flex;
@@ -35,6 +37,8 @@ cursor:pointer;
 color:#ffffff;
 }
 
+
+
 /* Hero Section */
 .hero{
 display:flex;
@@ -58,6 +62,8 @@ color:#00e5ff;
 text-shadow:0 0 10px #00e5ff;
 }
 
+
+
 /* Buttons */
 .buttons{
 margin-top:30px;
@@ -79,6 +85,8 @@ background:#8f9bff;
 color:black;
 }
 
+
+
 /* Image */
 .image img{
 width:400px;
@@ -89,4 +97,55 @@ animation: float 3s ease-in-out infinite;
 0%{transform:translateY(0px);}
 50%{transform:translateY(-20px);}
 100%{transform:translateY(0px);}
+}
+
+
+/* Contact Section */
+
+.contact{
+background:#0b0f2e;
+padding:60px;
+text-align:center;
+}
+
+.contact h2{
+font-size:40px;
+color:#8f9bff;
+margin-bottom:30px;
+}
+
+.contact-box{
+background:#1b1f4a;
+padding:40px;
+border-radius:20px;
+box-shadow:0 0 30px rgba(143,155,255,0.3);
+display:inline-block;
+}
+
+.contact-box p{
+font-size:18px;
+margin:15px 0;
+}
+
+.contact-box span{
+color:#00e5ff;
+}
+
+.social{
+margin-top:30px;
+}
+
+.social a{
+margin:0 15px;
+text-decoration:none;
+color:white;
+border:2px solid #8f9bff;
+padding:10px 20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.social a:hover{
+background:#8f9bff;
+color:black;
 }
