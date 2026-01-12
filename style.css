@@ -1,0 +1,92 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial;
+}
+
+body{
+background: linear-gradient(135deg,#0b0f2e,#1b1f4a);
+color:white;
+height:100vh;
+}
+
+/* Navbar */
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#0b0f2e;
+}
+
+.logo{
+color:#8f9bff;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav ul li{
+cursor:pointer;
+color:#ffffff;
+}
+
+/* Hero Section */
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px;
+height:90vh;
+}
+
+.text h1{
+font-size:45px;
+line-height:1.4;
+}
+
+.name{
+color:#8f9bff;
+}
+
+#typing{
+color:#00e5ff;
+text-shadow:0 0 10px #00e5ff;
+}
+
+/* Buttons */
+.buttons{
+margin-top:30px;
+}
+
+button{
+padding:15px 30px;
+background:transparent;
+border:2px solid #8f9bff;
+color:white;
+margin-right:15px;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#8f9bff;
+color:black;
+}
+
+/* Image */
+.image img{
+width:400px;
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-20px);}
+100%{transform:translateY(0px);}
+}
