@@ -24,8 +24,7 @@ document.getElementById("resumeBtn").addEventListener("click", () => {
 });
 
 document.getElementById("linkedinBtn").addEventListener("click", () => {
-  window.open(
-    "https://www.linkedin.com/in/ashish-apotikar-051981285","_blank");
+  window.open("https://www.linkedin.com/in/ashish-apotikar-051981285","_blank");
 });
 
 document.getElementById("resumeBtn").addEventListener("click", () => {
