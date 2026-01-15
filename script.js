@@ -13,3 +13,19 @@ setTimeout(type,150);
 }
 
 type();
+
+// Button Functionality
+document.getElementById("githubBtn").addEventListener("click", () => {
+  window.open("https://github.com/ashishapotikar9-bot", "_blank");
+});
+
+document.getElementById("resumeBtn").addEventListener("click", () => {
+  window.open("/Users/apple/Downloads/VS Code/portfolio-website/Resume/resume.pdf", "_blank");
+});
+
+document.getElementById("resumeBtn").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "/Users/apple/Downloads/VS Code/portfolio-website/Resume/resume.pdf";
+  link.download = "resume.pdf";
+  link.click();
+});
