@@ -1,4 +1,4 @@
-let text = "Web Developer  |  Mac Operator  |  Tech Enthusiast";
+let text = "Web Developer  |  Tech Enthusiast";
 let index = 0;
 
 function type() {
@@ -25,9 +25,7 @@ document.getElementById("resumeBtn").addEventListener("click", () => {
 
 document.getElementById("linkedinBtn").addEventListener("click", () => {
   window.open(
-    "https://www.linkedin.com/in/ashish-apotikar-051981285",
-    "_blank"
-  );
+    "https://www.linkedin.com/in/ashish-apotikar-051981285","_blank");
 });
 
 document.getElementById("resumeBtn").addEventListener("click", () => {
