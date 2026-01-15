@@ -16,20 +16,21 @@ type();
 
 // Button Functionality
 
-// GitHub Button
+// GitHub
 document.getElementById("githubBtn").addEventListener("click", () => {
-  window.open("https://github.com/ashishapotikar9-bot", "_blank");
+  window.open("https://github.com/YOUR_USERNAME", "_blank");
 });
 
-// Resume Button
+// Resume
 document.getElementById("resumeBtn").addEventListener("click", () => {
-  window.open("/AshishPortfolio/resume.pdf", "_blank");
+  window.open("assets/resume.pdf", "_blank");
 });
 
-// LinkedIn Button
-document.getElementById("LinkedInBtn").addEventListener("click", () => {
-  window.open("https://www.linkedin.com/in/ashish-apotikar-051981285","_blank");
+// LinkedIn
+document.getElementById("linkedinBtn").addEventListener("click", () => {
+  window.open("https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/", "_blank");
 });
+
 
 // Resume Download Button
 document.getElementById("resumeBtn").addEventListener("click", () => {
