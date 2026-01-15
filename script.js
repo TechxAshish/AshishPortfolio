@@ -23,15 +23,15 @@ document.getElementById("resumeBtn").addEventListener("click", () => {
   window.open("/AshishPortfolio/resume.pdf", "_blank");
 });
 
-document.getElementById("linkedinBtn").addEventListener("click", () => {
-  window.open("https://www.linkedin.com/in/ashish-apotikar-051981285","_blank");
-});
-
 document.getElementById("resumeBtn").addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = "/AshishPortfolio/resume.pdf";
   link.download = "resume.pdf";
   link.click();
+});
+
+document.getElementById("linkedInBtn").addEventListener("click", () => {
+  window.open("https://www.linkedin.com/in/ashish-apotikar-051981285","_blank");
 });
 
 
