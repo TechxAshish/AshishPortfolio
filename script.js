@@ -18,7 +18,7 @@ type();
 
 // GitHub Button
 document.getElementById("githubBtn").addEventListener("click", () => {
-  window.open("https://github.com/ashishapotikar9-bot", "_blank");
+  window.open("https://github.com/TechxAshish", "_blank");
 });
 
 // Resume Button
