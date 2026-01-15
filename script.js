@@ -1,15 +1,15 @@
-let text = "Web Developer  |  Software Developer  |  Tech Enthusiast";
+let text = "Web Developer  |  Mac Operator  |  Tech Enthusiast";
 let index = 0;
 
-function type(){
-document.getElementById("typing").innerHTML = text.slice(0,index);
-index++;
+function type() {
+  document.getElementById("typing").innerHTML = text.slice(0, index);
+  index++;
 
-if(index > text.length){
-index = 0;
-}
+  if (index > text.length) {
+    index = 0;
+  }
 
-setTimeout(type,150);
+  setTimeout(type, 150);
 }
 
 type();
@@ -23,6 +23,13 @@ document.getElementById("resumeBtn").addEventListener("click", () => {
   window.open("/AshishPortfolio/resume.pdf", "_blank");
 });
 
+document.getElementById("linkedinBtn").addEventListener("click", () => {
+  window.open(
+    "https://www.linkedin.com/in/ashish-apotikar-051981285",
+    "_blank"
+  );
+});
+
 document.getElementById("resumeBtn").addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = "/AshishPortfolio/resume.pdf";
@@ -30,10 +37,4 @@ document.getElementById("resumeBtn").addEventListener("click", () => {
   link.click();
 });
 
-document.getElementById("linkedinBtn").addEventListener("click", () => {
-  window.open(
-    "https://www.linkedin.com/in/ashish-apotikar-051981285",
-    "_blank"
-  );
-});
 
