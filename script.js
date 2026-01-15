@@ -1,4 +1,4 @@
-let text = "Guitarist  |  Photographer  |  Traveler";
+let text = "Web Developer  |  Software Developer  |  Tech Enthusiast";
 let index = 0;
 
 function type(){
@@ -29,3 +29,11 @@ document.getElementById("resumeBtn").addEventListener("click", () => {
   link.download = "resume.pdf";
   link.click();
 });
+
+document.getElementById("linkedinBtn").addEventListener("click", () => {
+  window.open(
+    "https://www.linkedin.com/in/ashish-apotikar-051981285",
+    "_blank"
+  );
+});
+
